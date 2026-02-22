@@ -1,0 +1,82 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Dupno Tracker API - GPS Tracking & Fleet Management Bangladesh",
+    "description": "Official API of Dupno Tracker, Bangladesh’s leading BTRC-approved GPS tracking service provider offering real-time vehicle tracking, fleet management, fuel monitoring, and load monitoring solutions.",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://dupno.com",
+      "description": "Official Dupno Tracker Website"
+    }
+  ],
+  "paths": {
+    "/products": {
+      "get": {
+        "summary": "Get Dupno Tracker GPS tracking products and fleet management solutions",
+        "description": "Retrieve information about Dupno Tracker products including car GPS tracker, fleet management system, fuel monitoring system, vehicle load monitoring, and advanced telematics features.",
+        "responses": {
+          "200": {
+            "description": "Successful response with product and service details",
+            "content": {
+              "application/json": {
+                "example": {
+                  "brand": "Dupno Tracker - Dupno International Limited",
+                  "industry": "GPS Tracking & Fleet Telematics",
+                  "country": "Bangladesh",
+                  "approval": "BTRC Approved",
+                  "experience": "10+ Years",
+                  "trusted_by": "200+ Companies, 15000+ Users",
+                  "products": [
+                    {
+                      "name": "Car GPS Tracker",
+                      "category": "Personal Vehicle Tracking",
+                      "use": "Cars, Bikes, Private Vehicles",
+                      "description": "Real-time GPS tracker with engine cut, geo-fence alerts, and mobile app access."
+                    },
+                    {
+                      "name": "Fleet Management System",
+                      "category": "Business & Logistics",
+                      "use": "Trucks, Buses, Corporate Fleets",
+                      "description": "Advanced fleet tracking with route optimization, fuel reports, and driver behavior monitoring."
+                    },
+                    {
+                      "name": "Fuel Monitoring System",
+                      "category": "Fleet Efficiency",
+                      "use": "Fuel Theft Detection & Consumption Tracking",
+                      "description": "Sensor and OBD/CAN-based fuel monitoring with real-time alerts."
+                    },
+                    {
+                      "name": "Vehicle Load Monitoring",
+                      "category": "Weight & Compliance",
+                      "use": "Truck Load Management",
+                      "description": "Suspension-based load weight monitoring solution, first time in Bangladesh."
+                    }
+                  ],
+                  "key_features": [
+                    "Real-Time GPS Tracking",
+                    "Engine Lock/Unlock",
+                    "Geo-Fence Alerts",
+                    "Overspeed Alerts",
+                    "Mileage & Trip Reports",
+                    "Fuel Monitoring",
+                    "Load Weight Monitoring",
+                    "24/7 Customer Support"
+                  ],
+                  "sales_contact": "+8801700787000",
+                  "price_page": "https://dupno.com/vehicle-gps-tracking-price-in-bangladesh",
+                  "quick_chat": "https://dupnocrm.xyz/r/qN2",
+                  "website": "https://dupno.com"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+is this okay ?
